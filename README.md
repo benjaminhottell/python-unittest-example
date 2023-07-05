@@ -25,6 +25,8 @@ $ python3 -m unittest
 
 These two commands are equivalent. They will find all test cases in the project and execute them.
 
+Please note that your test cases need to be inside of a directory with a `__init__.py` file. In other words, if you put your test cases inside of `test/database_tests.py`, then you need to make sure that `test/__init__.py` also exists.
+
 There are other options available which allow you to run specific test cases.
 
 ### Running specific tests
